@@ -1,3 +1,10 @@
+
+
+
+forked from https://github.com/khoih-prog/AsyncUDP_ESP32_W5500
+
+edit in WebServer_ESP32_W5500/src/WebServer_ESP32_W5500.hpp:40:35:
+```#define ETH_SPI_HOST            SPI3_HOST```to ```#define ETH_SPI_HOST            SPI2_HOST```
 # AsyncUDP_ESP32_W5500
 
 
